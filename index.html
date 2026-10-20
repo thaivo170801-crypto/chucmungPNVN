@@ -2,201 +2,82 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#fff7f3">
-<meta name="description" content="Một lời chúc dịu dàng gửi đến những người phụ nữ tuyệt vời nhân ngày Phụ nữ Việt Nam 20/10.">
-<title>Gửi những điều dịu dàng · 20/10</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7c6d0">
+<meta name="description" content="Một khu vườn hoa rực rỡ gửi tặng tất cả những người phụ nữ nhân ngày 20/10.">
+<title>Vườn hoa yêu thương · 20/10</title>
 <style>
-:root{
-  --ink:#423b3a; --muted:#706462; --rose:#b54f69; --rose-dark:#8f344d;
-  --cream:#fffaf5; --paper:#fffdfb; --line:#eadbd5; --sage:#647c6b;
-  --shadow:0 24px 80px rgba(92,56,54,.11);
-}
+:root{color-scheme:light}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;min-height:100vh;background:
- radial-gradient(ellipse at 5% 8%,rgba(248,219,213,.65),transparent 31%),
- radial-gradient(ellipse at 95% 86%,rgba(220,232,218,.72),transparent 30%),
- linear-gradient(145deg,#fffaf6,#fff1ef 54%,#f8f5ee);
- color:var(--ink);font-family:"DM Sans",Arial,sans-serif;font-size:17px;line-height:1.7}
-button{font:inherit}
-.skip{position:absolute;left:-9999px;top:10px;background:#fff;padding:10px 14px;border-radius:8px;z-index:20}
-.skip:focus{left:10px}
-.decor{position:fixed;pointer-events:none;z-index:0;opacity:.25;font-size:clamp(30px,5vw,66px);filter:saturate(.8);animation:sway 7s ease-in-out infinite}
-.decor.one{left:2%;top:12%}.decor.two{right:3%;bottom:9%;animation-delay:-3s}.decor.three{right:8%;top:7%;font-size:30px;animation-delay:-1.5s}
-@keyframes sway{0%,100%{transform:translateY(0) rotate(-7deg)}50%{transform:translateY(-12px) rotate(7deg)}}
-.wrap{position:relative;z-index:1;width:min(100% - 30px,920px);margin:0 auto;padding:32px 0 24px}
-.topline{display:flex;justify-content:center;align-items:center;gap:10px;margin:0 auto 18px;color:#875f5c;font-size:.83rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase}
-.topline:before,.topline:after{content:"";width:30px;height:1px;background:#d9b5ad}
-.panel{position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.9);border-radius:30px;background:rgba(255,253,250,.88);box-shadow:var(--shadow);padding:clamp(24px,5vw,58px);text-align:center;backdrop-filter:blur(10px)}
-.panel:before{content:"";position:absolute;inset:10px;border:1px solid rgba(218,173,164,.45);border-radius:22px;pointer-events:none}
-.kicker{display:inline-flex;align-items:center;gap:8px;border-radius:999px;background:#f8ebe5;color:#7b4c4a;padding:7px 14px;font-size:.88rem;font-weight:700}
-.hero-flower{font-size:clamp(54px,10vw,86px);line-height:1.3;margin:18px 0 8px;filter:drop-shadow(0 8px 8px #bd687022);animation:float 4s ease-in-out infinite}
-@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
-h1{font-family:"Playfair Display",Georgia,serif;font-size:clamp(2.2rem,6vw,4.2rem);line-height:1.15;font-weight:600;letter-spacing:-.035em;color:#853c50;margin:8px auto 18px;max-width:760px}
-.intro{max-width:650px;margin:0 auto;color:#5e5351;font-size:clamp(1.05rem,2.3vw,1.2rem);line-height:1.9}
-.rule{display:flex;align-items:center;justify-content:center;gap:14px;color:#bd7b83;margin:26px 0 18px}
-.rule:before,.rule:after{content:"";height:1px;width:min(14vw,100px);background:linear-gradient(90deg,transparent,#d9aaa6)}
-.rule:after{transform:scaleX(-1)}
-.wish-box{max-width:680px;margin:0 auto;padding:22px clamp(15px,4vw,34px);border-radius:20px;background:linear-gradient(130deg,#fff7f2,#fffaf6);border:1px solid #f0dfd8;min-height:116px;display:grid;place-items:center}
-.wish{margin:0;font-family:"Playfair Display",Georgia,serif;font-size:clamp(1.25rem,3.2vw,1.75rem);line-height:1.55;color:#6e3c49;transition:opacity .25s}
-.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin:24px 0 0}
-.btn{min-height:52px;padding:12px 23px;border-radius:999px;border:2px solid transparent;cursor:pointer;font-weight:700;transition:transform .2s,box-shadow .2s,background .2s}
-.btn:focus-visible{outline:3px solid #44322f;outline-offset:4px}
-.btn:hover{transform:translateY(-2px)}
-.btn-primary{color:white;background:linear-gradient(120deg,#a94660,#c86478);box-shadow:0 9px 22px #a946602c}
-.btn-primary:hover{box-shadow:0 13px 28px #a9466040}
-.btn-secondary{color:#7e3d50;background:#fff;border-color:#e8c9c7}
-.btn-secondary:hover{background:#fff5f2}
-.helper{font-size:.9rem;color:#786a66;margin:14px auto 0}
-.letter{max-width:690px;margin:0 auto;display:grid;grid-template-rows:0fr;opacity:0;transform:translateY(12px);transition:grid-template-rows .7s ease,opacity .6s ease,transform .6s ease}
-.letter.open{grid-template-rows:1fr;opacity:1;transform:translateY(0);margin-top:24px}
-.letter-clip{overflow:hidden;min-height:0}
-.letter-paper{position:relative;text-align:left;padding:clamp(20px,4vw,34px);border-radius:18px;border:1px solid #e8d4c7;background:linear-gradient(145deg,#fffdf8,#fff5ef);box-shadow:inset 0 0 0 5px #fffaf4}
-.letter-paper h2{font-family:"Playfair Display",Georgia,serif;font-size:1.7rem;line-height:1.3;text-align:center;color:#853c50;margin:0 0 16px}
-.letter-paper p{margin:0 0 13px}
-.letter-paper p:last-child{margin-bottom:0}
-.signoff{text-align:right;color:#8d4c5a;font-weight:700}
-.choices{margin:30px auto 0;max-width:690px;text-align:left}
-.choices h2{font-family:"Playfair Display",Georgia,serif;font-size:1.55rem;text-align:center;color:#76434b;margin:0 0 13px}
-.choice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.choice{padding:15px 12px;border:1px solid #ead8d1;border-radius:15px;background:#fffaf7;color:#514543;cursor:pointer;font-weight:700;min-height:66px}
-.choice:hover,.choice[aria-pressed="true"]{background:#f8e8e3;border-color:#d5a6a2}
-.choice:focus-visible{outline:3px solid #44322f;outline-offset:3px}
-.personal-note{min-height:60px;margin:14px 0 0;text-align:center;color:#714653;font-weight:600}
-.footer{text-align:center;color:#786965;font-size:.85rem;padding:20px 8px 0}
-.footer strong{color:#87505a}
-.petal{position:fixed;top:-45px;left:0;z-index:5;pointer-events:none;will-change:transform;animation:fall linear forwards}
-@keyframes fall{0%{transform:translate3d(0,-6vh,0) rotate(0) scale(.7);opacity:0}12%{opacity:.85}100%{transform:translate3d(var(--drift),110vh,0) rotate(var(--spin)) scale(1);opacity:.05}}
-.burst{position:fixed;z-index:6;pointer-events:none;font-size:22px;animation:burst 1.7s ease-out forwards}
-@keyframes burst{0%{transform:translate(0,0) scale(.3);opacity:0}15%{opacity:1}100%{transform:translate(var(--x),var(--y)) rotate(var(--rot)) scale(1.1);opacity:0}}
-@media(max-width:620px){body{font-size:16px}.wrap{width:min(100% - 20px,920px);padding-top:20px}.panel{border-radius:23px;padding:28px 18px}.panel:before{inset:7px;border-radius:17px}.choice-grid{grid-template-columns:1fr}.choice{min-height:54px}.actions{flex-direction:column}.btn{width:100%}.decor.one{left:-4%;top:4%}.decor.two{right:-3%;bottom:4%}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
+html,body{margin:0;width:100%;height:100%;overflow:hidden}
+body{font-family:Georgia,"Times New Roman",serif;background:#f8d7df;color:#fff}
+.scene{position:relative;width:100%;height:100%;height:100svh;overflow:hidden;isolation:isolate;background:radial-gradient(ellipse at center,#ffe7df 0,#f5b8cb 60%,#a85c7d 100%)}
+.backdrop{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;transition:transform 2.4s ease,filter 2s ease;z-index:-2}
+.scene:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(73,18,48,.06),transparent 35%,rgba(83,20,49,.12));pointer-events:none}
+.play{position:absolute;left:50%;top:51.5%;transform:translate(-50%,-50%);width:clamp(76px,15vw,142px);aspect-ratio:1;border:3px solid rgba(255,255,255,.92);border-radius:50%;background:linear-gradient(145deg,#ff7ba5,#e91e63);box-shadow:0 0 0 10px #fff4,0 0 45px 12px #ff6d9eaa,inset 0 2px 8px #fff9;display:grid;place-items:center;cursor:pointer;z-index:4;animation:pulse 1.8s ease-in-out infinite}
+.play svg{width:36%;height:36%;margin-left:7px;filter:drop-shadow(0 2px 3px #a31c53)}
+.play:focus-visible{outline:4px solid #fff;outline-offset:9px}
+.play span{position:absolute;top:calc(100% + 15px);white-space:nowrap;font:700 clamp(15px,2.5vw,20px)/1.2 Arial,sans-serif;color:#fff;text-shadow:0 2px 8px #85334f,0 0 14px #7d2b4a;letter-spacing:.02em}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 8px #fff3,0 0 35px 8px #ff6d9e99,inset 0 2px 8px #fff9;transform:translate(-50%,-50%) scale(1)}50%{box-shadow:0 0 0 16px #fff2,0 0 60px 18px #ff6d9ecc,inset 0 2px 8px #fff9;transform:translate(-50%,-50%) scale(1.06)}}
+.tiny-title{position:absolute;top:max(16px,env(safe-area-inset-top));left:0;right:0;text-align:center;font:700 clamp(14px,2.2vw,21px)/1.3 Arial,sans-serif;letter-spacing:.23em;color:#fff8;text-shadow:0 2px 10px #75304b;pointer-events:none;z-index:2}
+.hint{position:absolute;bottom:max(18px,env(safe-area-inset-bottom));left:12px;right:12px;text-align:center;font:500 13px/1.4 Arial,sans-serif;letter-spacing:.04em;color:#fff9;text-shadow:0 2px 8px #71304a;z-index:2;pointer-events:none}
+.petal,.sparkle,.heart{position:absolute;left:0;top:0;pointer-events:none;z-index:5;will-change:transform,opacity}
+.petal{animation:fall var(--dur) linear forwards;filter:drop-shadow(0 2px 3px #9b365755)}
+@keyframes fall{0%{transform:translate3d(var(--x),-12vh,0) rotate(0deg) scale(.6);opacity:0}10%{opacity:1}100%{transform:translate3d(calc(var(--x) + var(--drift)),112vh,0) rotate(var(--spin)) scale(1.25);opacity:.08}}
+.sparkle{color:#fff8a8;text-shadow:0 0 12px #fff,0 0 24px #ffb5d1;animation:twinkle var(--dur) ease-out forwards}
+@keyframes twinkle{0%{transform:translate(var(--x),var(--y)) scale(.2) rotate(0);opacity:0}25%{opacity:1}100%{transform:translate(calc(var(--x) + var(--dx)),calc(var(--y) + var(--dy))) scale(1.7) rotate(90deg);opacity:0}}
+.heart{animation:floatheart var(--dur) ease-out forwards;filter:drop-shadow(0 3px 8px #c62f69aa)}
+@keyframes floatheart{0%{transform:translate(var(--x),var(--y)) scale(.25) rotate(-12deg);opacity:0}15%{opacity:1}100%{transform:translate(calc(var(--x) + var(--dx)),calc(var(--y) - var(--dy))) scale(1.2) rotate(15deg);opacity:0}}
+.scene.playing .backdrop{transform:scale(1.09);filter:saturate(1.15) brightness(1.04)}
+.scene.playing .play{opacity:0;pointer-events:none;transform:translate(-50%,-50%) scale(.2);transition:opacity .5s,transform .7s}
+.scene.playing .tiny-title{color:#fff;letter-spacing:.28em;transition:all 1.2s}
+.replay{position:absolute;right:16px;bottom:max(16px,env(safe-area-inset-bottom));z-index:8;border:1px solid #ffffffa6;background:#7d2b4b66;color:white;border-radius:999px;padding:10px 15px;font:600 14px Arial,sans-serif;backdrop-filter:blur(8px);cursor:pointer;opacity:0;pointer-events:none;transition:opacity .4s}
+.scene.playing .replay{opacity:1;pointer-events:auto}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition:none!important}}
 </style>
 </head>
 <body>
-<a class="skip" href="#main">Bỏ qua phần trang trí, đến lời chúc</a>
-<div class="decor one" aria-hidden="true">🌷</div><div class="decor two" aria-hidden="true">🌼</div><div class="decor three" aria-hidden="true">✧</div>
-<main class="wrap" id="main">
-  <div class="topline">20 tháng 10 · Ngày Phụ nữ Việt Nam</div>
-  <section class="panel" aria-labelledby="title">
-    <div class="kicker"><span aria-hidden="true">♡</span> Một lời chúc dành cho bạn</div>
-    <div class="hero-flower" aria-hidden="true">💐</div>
-    <h1 id="title">Gửi những điều dịu dàng<br>đến những người phụ nữ tuyệt vời</h1>
-    <p class="intro">Dù bạn là mẹ, là bà, là chị, là em, là người bạn đồng hành hay đang lặng lẽ chăm sóc cả thế giới — hôm nay, mong bạn cũng nhận được thật nhiều yêu thương.</p>
-    <div class="rule" aria-hidden="true">✿ ♡ ✿</div>
-    <div class="wish-box" aria-live="polite" aria-atomic="true">
-      <p class="wish" id="wish">Chúc bạn luôn mạnh khỏe, bình an, được trân trọng và có thật nhiều lý do để mỉm cười. 🌷</p>
-    </div>
-    <div class="actions">
-      <button class="btn btn-primary" id="surprise" type="button">🌸 Nhận lời chúc yêu thương</button>
-      <button class="btn btn-secondary" id="openLetter" type="button" aria-expanded="false" aria-controls="letter">💌 Mở lá thư nhỏ</button>
-    </div>
-    <p class="helper" id="helper">Chạm vào một nút để nhận lời chúc. Bạn có thể chia sẻ món quà này với người mình quý mến.</p>
-    <section class="letter" id="letter" aria-hidden="true">
-      <div class="letter-clip">
-        <div class="letter-paper">
-          <h2>Một lá thư nhỏ gửi bạn 💌</h2>
-          <p>Thân gửi những người phụ nữ đáng quý,</p>
-          <p>Nhân ngày 20/10, xin gửi đến bạn lời chúc chân thành nhất. Chúc bạn luôn có sức khỏe để làm điều mình yêu, có bình yên trong lòng, có những người thật tử tế bên cạnh và có thời gian dành cho chính mình.</p>
-          <p>Cảm ơn bạn vì bao điều lớn nhỏ vẫn âm thầm làm mỗi ngày — vì sự chăm sóc, lòng kiên cường, sự dịu dàng và cả những nỗ lực đôi khi chẳng ai nhìn thấy. Bạn không cần phải hoàn hảo để xứng đáng được yêu thương. Chỉ cần là chính mình, bạn đã rất đáng quý rồi.</p>
-          <p>Mong những ngày sắp tới sẽ mang đến nhiều niềm vui giản dị: một bữa cơm ngon, một giấc ngủ sâu, một cuộc gọi hỏi thăm, một bông hoa bất ngờ và những nụ cười thật lòng.</p>
-          <p class="signoff">Chúc bạn một ngày 20/10 ấm áp và nhiều yêu thương. ♡</p>
-        </div>
-      </div>
-    </section>
-  </section>
-  <section class="choices" aria-labelledby="chooseTitle">
-    <h2 id="chooseTitle">Bạn muốn gửi lời chúc đến ai?</h2>
-    <div class="choice-grid">
-      <button class="choice" type="button" data-kind="mother" aria-pressed="false">🌷 Mẹ và bà</button>
-      <button class="choice" type="button" data-kind="friend" aria-pressed="false">🌸 Chị, em và bạn bè</button>
-      <button class="choice" type="button" data-kind="all" aria-pressed="true">💗 Tất cả phụ nữ</button>
-    </div>
-    <p class="personal-note" id="personalNote" aria-live="polite">Chúc tất cả những người phụ nữ luôn được yêu thương, tôn trọng và sống những ngày thật bình an.</p>
-  </section>
-  <footer class="footer">Một món quà nhỏ, gửi bằng sự trân trọng. <strong>Chúc mừng ngày 20/10!</strong></footer>
+<main class="scene" id="scene" aria-label="Vườn hoa chúc mừng ngày 20 tháng 10">
+  <img class="backdrop" src="garden-20-10.png" alt="Khu vườn ngập tràn hoa hồng, cánh hoa bay và ánh sáng lung linh nhân ngày 20/10">
+  <div class="tiny-title" aria-hidden="true">20 · 10</div>
+  <button class="play" id="play" aria-label="Bấm để mở vườn hoa yêu thương">
+    <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M33 20 Q30 17 30 27 L30 73 Q30 83 39 77 L76 55 Q84 50 76 45 Z" fill="#fff"/></svg>
+    <span>Chạm để nhận hoa 🌸</span>
+  </button>
+  <div class="hint" id="hint">Một chút yêu thương dành tặng bạn · 20/10</div>
+  <button class="replay" id="replay" type="button">↻ Ngắm lại từ đầu</button>
 </main>
 <script>
 (() => {
-  const wish = document.getElementById('wish');
-  const surprise = document.getElementById('surprise');
-  const openLetter = document.getElementById('openLetter');
-  const letter = document.getElementById('letter');
-  const helper = document.getElementById('helper');
-  const personalNote = document.getElementById('personalNote');
-  const choiceButtons = [...document.querySelectorAll('.choice')];
-  const messages = [
-    'Chúc bạn luôn mạnh khỏe, bình an, được trân trọng và có thật nhiều lý do để mỉm cười. 🌷',
-    'Mong bạn luôn có người lắng nghe, có nơi để trở về và có thời gian chăm sóc chính mình. 💗',
-    'Chúc mỗi ngày của bạn có một niềm vui nhỏ, một điều đáng mong chờ và thật nhiều yêu thương. 🌼',
-    'Bạn đã làm rất tốt rồi. Mong hôm nay bạn được nghỉ ngơi, được quan tâm và được nuông chiều một chút. 🌸',
-    'Chúc bạn giữ được sự tự tin, nét duyên riêng và trái tim ấm áp ở bất cứ độ tuổi nào. ✨',
-    'Mong những điều tử tế sẽ tìm đến bạn, như nắng dịu dàng ghé qua một khu vườn đầy hoa. 🌺'
-  ];
-  const flowers = ['🌸','🌷','🌼','🌺','💮','♡','✿','✨'];
-  let index = 0, petalTimer = null;
-  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  function burst() {
-    if (reduced) return;
-    const cx = window.innerWidth / 2, cy = Math.min(window.innerHeight * .48, 390);
-    for (let i = 0; i < 20; i++) {
-      const el = document.createElement('span');
-      el.className = 'burst';
-      el.textContent = flowers[Math.floor(Math.random() * flowers.length)];
-      el.style.left = cx + 'px'; el.style.top = cy + 'px';
-      el.style.setProperty('--x', ((Math.random() - .5) * Math.min(window.innerWidth * .9, 520)) + 'px');
-      el.style.setProperty('--y', (-40 - Math.random() * window.innerHeight * .55) + 'px');
-      el.style.setProperty('--rot', ((Math.random() - .5) * 90) + 'deg');
-      document.body.appendChild(el);
-      setTimeout(() => el.remove(), 1900);
-    }
-  }
-  function makePetal() {
-    if (reduced || document.hidden) return;
-    const el = document.createElement('span');
-    el.className = 'petal';
-    el.textContent = flowers[Math.floor(Math.random() * flowers.length)];
-    el.style.left = Math.random() * 100 + 'vw';
-    el.style.fontSize = (16 + Math.random() * 17) + 'px';
-    el.style.setProperty('--drift', ((Math.random() - .5) * 180) + 'px');
-    el.style.setProperty('--spin', ((Math.random() - .5) * 500) + 'deg');
-    el.style.animationDuration = (7 + Math.random() * 5) + 's';
-    document.body.appendChild(el);
-    setTimeout(() => el.remove(), 12500);
-  }
-  surprise.addEventListener('click', () => {
-    index = (index + 1) % messages.length;
-    wish.style.opacity = '0';
-    setTimeout(() => { wish.textContent = messages[index]; wish.style.opacity = '1'; }, 180);
-    burst();
-    if (!reduced) {
-      for (let i = 0; i < 18; i++) setTimeout(makePetal, i * 85);
-      if (!petalTimer) petalTimer = setInterval(makePetal, 900);
-    }
-    helper.textContent = 'Một lời chúc mới dành tặng bạn. Nhấn thêm lần nữa để nhận lời chúc khác nhé. ♡';
-  });
-  openLetter.addEventListener('click', () => {
-    const isOpen = letter.classList.toggle('open');
-    letter.setAttribute('aria-hidden', String(!isOpen));
-    openLetter.setAttribute('aria-expanded', String(isOpen));
-    openLetter.textContent = isOpen ? '💌 Gấp lá thư lại' : '💌 Mở lá thư nhỏ';
-    if (isOpen) { burst(); letter.scrollIntoView({behavior: reduced ? 'auto' : 'smooth', block:'nearest'}); }
-  });
-  const notes = {
-    mother: 'Kính chúc mẹ và bà luôn dồi dào sức khỏe, an nhiên trong lòng, mỗi ngày đều có tiếng cười và được con cháu yêu thương.',
-    friend: 'Chúc chị, em và những người bạn thân thương luôn tự tin, vui khỏe, gặp nhiều may mắn và được sống theo cách mình mong muốn.',
-    all: 'Chúc tất cả những người phụ nữ luôn được yêu thương, tôn trọng và sống những ngày thật bình an.'
-  };
-  choiceButtons.forEach(button => button.addEventListener('click', () => {
-    choiceButtons.forEach(b => b.setAttribute('aria-pressed', String(b === button)));
-    personalNote.textContent = notes[button.dataset.kind];
-    burst();
-  }));
+ const scene=document.getElementById('scene'), play=document.getElementById('play'), replay=document.getElementById('replay'), hint=document.getElementById('hint');
+ const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+ const petals=['🌸','🌺','🌷','🌼','💮','🌹','🩷','🌸','🌷'];
+ const sparkles=['✦','✧','✨','♡','❀','✿'];
+ let timers=[];
+ function clearEffects(){document.querySelectorAll('.petal,.sparkle,.heart').forEach(e=>e.remove());timers.forEach(clearTimeout);timers=[]}
+ function addPetal(delay=0){
+   timers.push(setTimeout(()=>{
+    if(!scene.classList.contains('playing'))return;
+    const e=document.createElement('span');e.className='petal';e.textContent=petals[Math.floor(Math.random()*petals.length)];
+    e.style.fontSize=(18+Math.random()*30)+'px';e.style.setProperty('--x',Math.random()*100+'vw');e.style.setProperty('--drift',((Math.random()-.5)*35)+'vw');e.style.setProperty('--spin',((Math.random()-.5)*1000)+'deg');e.style.setProperty('--dur',(6+Math.random()*7)+'s');scene.appendChild(e);timers.push(setTimeout(()=>e.remove(),14000));
+   },delay));
+ }
+ function burst(){
+   if(reduce)return;
+   const w=innerWidth,h=innerHeight;
+   for(let i=0;i<58;i++){
+    const e=document.createElement('span');e.className=i%4===0?'heart':'sparkle';
+    e.textContent=e.className==='heart'?['💗','💖','💕','💝'][Math.floor(Math.random()*4)]:sparkles[Math.floor(Math.random()*sparkles.length)];
+    const x=(w*.12+Math.random()*w*.76), y=(h*.2+Math.random()*h*.55);
+    e.style.fontSize=(14+Math.random()*32)+'px';e.style.setProperty('--x',x+'px');e.style.setProperty('--y',y+'px');e.style.setProperty('--dx',((Math.random()-.5)*200)+'px');e.style.setProperty('--dy',(60+Math.random()*200)+'px');e.style.setProperty('--dur',(1.8+Math.random()*2.5)+'s');scene.appendChild(e);timers.push(setTimeout(()=>e.remove(),5000));
+   }
+ }
+ function start(){
+   clearEffects();scene.classList.add('playing');hint.textContent='🌸🌷💗🌼💐';
+   if(!reduce){burst();for(let i=0;i<85;i++)addPetal(i*70);for(let i=0;i<20;i++)timers.push(setTimeout(burst, i*650));}
+ }
+ function reset(){clearEffects();scene.classList.remove('playing');hint.textContent='Một chút yêu thương dành tặng bạn · 20/10';}
+ play.addEventListener('click',start);replay.addEventListener('click',reset);
 })();
 </script>
 </body>
